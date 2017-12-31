@@ -2,7 +2,7 @@
 layout: post
 title:  "Simple guide to setup a cordova environment"
 date:   2017-12-31 21:54:38 +0530
-categories: jekyll update
+categories: cordova
 ---
 A dead simple guide to setup a Cordova enviornment with Android tools in Ubuntu/Elementary os
 
