@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>{{ page.title }}</title>
+			<!-- link to main stylesheet -->
+			<link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+			<link href="https://fonts.googleapis.com/css?family=BenchNine" rel="stylesheet"> 
+			<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+			<link rel="stylesheet" type="text/css" href="/assets/site.css">
+		</head>
+		<body>
+			<!-- <nav>
+	    		<ul>
+	        		<li><a href="/">Home</a></li>
+		        	<li><a href="/about">About</a></li>
+	        		<li><a href="/cv">CV</a></li>
+	        		<li><a href="/blog">Blog</a></li>
+	    		</ul>
+			</nav> -->
+			<nav class="header">
+				<a href="/"><img src="/assets/logo5.png" class="logo"></a>
+			</nav>
+			<div class="container">
+			
+			<div class="row">
+				<div class="col-md-7 col-md-offset-5">
+					{{ content }}		
+				</div>
+			</div>
+			
+			
+			</div><!-- /.container -->
+			<footer>
+	    		<ul>
+	    			<li><a href="https://twitter.com/arjunmenon"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+	        		<!-- <li><a href="mailto:hankquinlanhub@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a></li> -->
+	        		<li><a href="https://github.com/arjunmenon"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+	        		<li><a href="/feed.xml"><i class="fa fa-rss" aria-hidden="true"></i></a></li>
+				</ul>
+			</footer>
+		</body>
+	</html>

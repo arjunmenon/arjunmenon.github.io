@@ -1,0 +1,48 @@
+body {
+	/*background-color: #111;*/
+}
+
+.header .logo {
+	/*box-shadow: 3px 3px 10px 2px #111;*/
+	width: 362px;
+}
+
+.page-heading, .post-meta, .rss-subscribe {
+	display: none;
+
+}
+
+.post-list {
+	list-style-type: none;
+}
+
+.post-link, .post-title {
+	text-transform: uppercase;
+	font-family: 'BenchNine', sans-serif;
+	font-size: 35px;
+	color: #333a41;
+
+}
+
+footer {
+	position: fixed;
+	right: 10px;
+	top: 50%;
+	margin-right: 30px;
+}
+
+footer ul {
+	list-style-type: none;
+
+}
+
+footer ul li {
+	margin-bottom: 20px;
+}
+
+footer ul li a {
+	font-size: 20px;
+	color: #111;
+	padding: 5px 15px;
+	padding-left: 25px;
+}
