@@ -84,6 +84,6 @@ adb devices
 ```
 This should hopefully show your device id properly.  
 
-If the adb does not show your attached devices, then you need to make sure the computer attached with your phone is verified. For this you generally toggle the developer options, which shows a propmt in your phone asking you permission to verify the RSA fingerprint for the device.
+If the adb does not show your attached devices, then you need to make sure the computer attached with your phone is verified. For this you generally toggle the developer options, which shows a prompt in your phone asking you permission to verify the RSA fingerprint for the device.
 
 
